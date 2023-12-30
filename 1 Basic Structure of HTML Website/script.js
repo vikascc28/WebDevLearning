@@ -1,0 +1,1 @@
+alert("page shows the basic structure of a HTML website")
