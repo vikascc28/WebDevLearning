@@ -1,0 +1,1 @@
+alert("opened from script.js")
