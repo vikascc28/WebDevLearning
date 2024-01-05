@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./3 Image List Tables/style.css">
 </head>
+
 <body>
     <img src="https://picsum.photos/200/300" alt="Random Image" width="200" height="300">
     <br>
@@ -44,34 +46,50 @@
     </table>
     <br>
     <hr>
+
+    <h1>Form</h1>
+    <form action="/submit" method="post">
+        <!-- Text input for username -->
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <br>
+
+        <!-- Password input -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+
+        <!-- Radio buttons for gender -->
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <br>
+
+        <!-- Submit button -->
+        <input type="submit" value="Submit">
+    </form>
+
+    <br>
+    <hr>
     <br>
 
+    <div id="box">This is a simple text.</div>
 
+    <h1 class="heading">Heading 1</h1>
+    <p id="parahead1" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti maiores accusantium ut saepe dolorem excepturi, aliquid iure dignissimos esse commodi nobis veritatis laudantium est! Numquam repellendus mollitia, corporis maiores amet ducimus repudiandae! Suscipit, dignissimos velit? Nulla veniam perspiciatis quisquam doloribus culpa ullam, pariatur, laboriosam expedita modi minus, delectus accusantium quia!</p>
+    <h2 class="heading">Heading 2</h2>
+    <h3 class="heading">Heading 3</h3>
 
+    <center><button onclick="changeColor()">Change Color</button></center>
 
-        <form action="/submit" method="post">
-            <!-- Text input for username -->
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" required>
-            <br>
-        
-            <!-- Password input -->
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required>
-            <br>
-        
-            <!-- Radio buttons for gender -->
-            <label>Gender:</label>
-            <input type="radio" id="male" name="gender" value="male">
-            <label for="male">Male</label>
-            <input type="radio" id="female" name="gender" value="female">
-            <label for="female">Female</label>
-            <br>
-        
-            <!-- Submit button -->
-            <input type="submit" value="Submit">
-          </form>
-
+<style>
+    button{
+        background-color: blueviolet;
+    }
+</style>
 
 </body>
+
 </html>

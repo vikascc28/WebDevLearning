@@ -1,6 +1,47 @@
+.heading{
+    color: red;
+    text-align: center;
+}
+
+h1{
+    color: rgb(255, 0, 238);
+    text-align: center;
+}
+
+h2{
+    color: rgb(255, 0, 238);
+    text-align: left;
+}
+
 td{
     border: 2px solid blue;
 }
+
 table{
     border: 4px lightblue;
+}
+
+#box{
+    color: rgb(255, 0, 238);
+    text-align: center;
+}
+
+button{
+    background-color: yellow;
+    color: rgb(208, 255, 0);
+    text-align: center;
+}
+
+#parahead1{
+    color: rgb(67, 48, 6);
+    text-align: center;
+    text-shadow: 1cm;
+    text-decoration: overline;
+}
+
+.para{
+    color: rgb(67, 48, 6);
+    text-align: center;
+    text-shadow: 1cm;
+    text-decoration: underline;
 }
